@@ -1,9 +1,10 @@
 import React from 'react'   //创建组件 虚拟DOM元素 生命周期
 import ReactDom from 'react-dom'   //放到页面上展示
 
-// const mydiv=React.createElement('div',{id: 'mydiv',class: 'dv', title: '我是关宏荣'}, '这是一个div元素')
+//  const mydiv=React.createElement('div',{id: 'mydiv',class: 'dv', title: '我是关宏荣'}, '这是一个div元素')
+//  const dv=React.createElement('div',{id: 'box',class: 'dv', title: '我是关宏荣2号'}, '这是一个div2元素',mydiv)
 
-// const ghdiv=<div>my name is guanhongrong</div>
+ const ghdiv=<div>my name is guanhongrong</div>
 
 // ReactDom.render(ghdiv,document.getElementById('app'))let a=10
 
@@ -30,7 +31,7 @@ import ReactDom from 'react-dom'   //放到页面上展示
 // let arr=[<h1>这是h1</h1>,<h2>这是h2</h2>,<h3>这是h3</h3>]
 // import Hello from '@/components/Hello'
 // import '@/03.class-基本使用'
- import '@/04.class继承'
+ //import '@/04.class继承'
 
 
 const user ={
@@ -42,5 +43,4 @@ var users={
     phone: '456899',
     ...user
 }
-ReactDom.render(<div>1111
-</div>,document.getElementById('app'))
+ReactDom.render(ghdiv,document.getElementById('app'))
