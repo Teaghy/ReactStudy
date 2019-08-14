@@ -32,7 +32,7 @@ import ReactDom from 'react-dom'   //放到页面上展示
 // import Hello from '@/components/Hello'
 // import '@/03.class-基本使用'
  //import '@/04.class继承'
-//注解
+//注解dev
 
 const user ={
     name:'大黄',
